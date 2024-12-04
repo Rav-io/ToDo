@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoonlineTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca715badfd5ad17f720eb9f1d2114da2eca64152")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoonlineTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoonlineTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

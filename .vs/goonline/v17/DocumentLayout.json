@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonlinetest\\todocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|solutionrelative:goonlinetest\\todocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonlinetest\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|solutionrelative:goonlinetest\\todoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonlinetest\\todocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBC531-7943-4379-B042-EBEDDBF34188}|GoonlineTest\\GoonlineTest.csproj|solutionrelative:goonlinetest\\todocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\dto\\todorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\dto\\todorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|solutionrelative:goonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29D7D4D8-2AE1-4D7A-8CED-1AECC9A0A387}|goonline\\goonline.csproj|c:\\users\\olejn\\desktop\\goonline2\\goonline\\goonline\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,37 +54,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\appsettings.json",
-              "RelativeDocumentMoniker": "goonline\\appsettings.json",
-              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\appsettings.json",
-              "RelativeToolTip": "goonline\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-03T15:15:16.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoServiceTests.cs",
-              "RelativeDocumentMoniker": "GoonlineTest\\TodoServiceTests.cs",
-              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoServiceTests.cs",
-              "RelativeToolTip": "GoonlineTest\\TodoServiceTests.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGAAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "goonline\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "goonline\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:01:43.277Z",
+              "WhenOpened": "2024-12-04T11:17:32.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TodoRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\DTO\\TodoRequestDTO.cs",
+              "RelativeDocumentMoniker": "goonline\\DTO\\TodoRequestDTO.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\DTO\\TodoRequestDTO.cs",
+              "RelativeToolTip": "goonline\\DTO\\TodoRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:16:53.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\DTO\\TodoDTO.cs",
+              "RelativeDocumentMoniker": "goonline\\DTO\\TodoDTO.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\DTO\\TodoDTO.cs",
+              "RelativeToolTip": "goonline\\DTO\\TodoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:16:53.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Dockerfile",
+              "RelativeDocumentMoniker": "goonline\\Dockerfile",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Dockerfile",
+              "RelativeToolTip": "goonline\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-04T10:51:19.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Models\\Todo.cs",
               "RelativeDocumentMoniker": "goonline\\Models\\Todo.cs",
@@ -87,33 +129,33 @@
               "RelativeDocumentMoniker": "goonline\\Services\\TodoService.cs",
               "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Services\\TodoService.cs",
               "RelativeToolTip": "goonline\\Services\\TodoService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwGEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:48:24.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TodoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Repositories\\TodoRepository.cs",
-              "RelativeDocumentMoniker": "goonline\\Repositories\\TodoRepository.cs",
-              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Repositories\\TodoRepository.cs",
-              "RelativeToolTip": "goonline\\Repositories\\TodoRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA2wDgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "goonline\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "goonline\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:47:35.256Z",
+              "WhenOpened": "2024-12-03T15:00:43.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TodoControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoControllerTests.cs",
               "RelativeDocumentMoniker": "GoonlineTest\\TodoControllerTests.cs",
               "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoControllerTests.cs",
               "RelativeToolTip": "GoonlineTest\\TodoControllerTests.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwCMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:41:06.562Z",
               "EditorCaption": ""
@@ -121,15 +163,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TodoController.cs",
-              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Controllers\\TodoController.cs",
-              "RelativeDocumentMoniker": "goonline\\Controllers\\TodoController.cs",
-              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Controllers\\TodoController.cs",
-              "RelativeToolTip": "goonline\\Controllers\\TodoController.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAzwJ8AAABMAAAAAAAAAA==",
+              "Title": "TodoServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoServiceTests.cs",
+              "RelativeDocumentMoniker": "GoonlineTest\\TodoServiceTests.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\GoonlineTest\\TodoServiceTests.cs",
+              "RelativeToolTip": "GoonlineTest\\TodoServiceTests.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:00:43.801Z",
+              "WhenOpened": "2024-12-03T15:01:43.277Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Repositories\\TodoRepository.cs",
+              "RelativeDocumentMoniker": "goonline\\Repositories\\TodoRepository.cs",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\Repositories\\TodoRepository.cs",
+              "RelativeToolTip": "goonline\\Repositories\\TodoRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA2wDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:47:35.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\appsettings.json",
+              "RelativeDocumentMoniker": "goonline\\appsettings.json",
+              "ToolTip": "C:\\Users\\olejn\\Desktop\\goonline2\\goonline\\goonline\\appsettings.json",
+              "RelativeToolTip": "goonline\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T15:15:16.179Z"
             }
           ]
         }

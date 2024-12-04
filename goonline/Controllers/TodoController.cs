@@ -2,6 +2,7 @@
 using goonline.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using goonline.Exceptions;
+using Microsoft.Extensions.Logging;
 
 namespace goonline.Controllers
 {
@@ -10,9 +11,11 @@ namespace goonline.Controllers
     public class TodoController : ControllerBase
     {
         private readonly ITodoService _service;
-        public TodoController(ITodoService service)
+        private readonly ILogger<TodoController> _logger;
+        public TodoController(ITodoService service, ILogger<TodoController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         // Retrieve all todos
@@ -21,7 +24,10 @@ namespace goonline.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllTodos()
         {
+            _logger.LogInformation("Fetching all todos.");
             var todos = await _service.GetAllTodos();
+
+            _logger.LogInformation("Found {Count} todos.", todos.Count());
             return Ok(todos);
         }
         // Retrieve a todo by its ID
@@ -31,13 +37,16 @@ namespace goonline.Controllers
         [HttpGet("id/{id}")]
         public async Task<IActionResult> GetTodoById(int id)
         {
+            _logger.LogInformation("Fetching todo with ID {Id}.", id);
             try
             {
                 var todo = await _service.GetTodoById(id);
+                _logger.LogInformation("Todo with ID {Id} found successfully.", id);
                 return Ok(todo);
             }
             catch (EntityNotFoundException ex)
             {
+                _logger.LogWarning("Todo with ID {Id} not found. Exception: {Exception}", id, ex.Message);
                 return NotFound(new { error = ex.Message });
             }
         }
@@ -47,7 +56,10 @@ namespace goonline.Controllers
         [HttpGet("today")]
         public async Task<IActionResult> GetIncomingTodosForToday()
         {
+            _logger.LogInformation("Fetching todos due today.");
             var todos = await _service.GetIncomingTodosForToday();
+
+            _logger.LogInformation("Found {Count} todos due today.", todos.Count());
             return Ok(todos);
         }
 
@@ -57,7 +69,10 @@ namespace goonline.Controllers
         [HttpGet("nextDay")]
         public async Task<IActionResult> GetIncomingTodosForNextDay()
         {
+            _logger.LogInformation("Fetching todos due next day.");
             var todos = await _service.GetIncomingTodosForNextDay();
+
+            _logger.LogInformation("Found {Count} todos due next day.", todos.Count());
             return Ok(todos);
         }
 
@@ -67,7 +82,10 @@ namespace goonline.Controllers
         [HttpGet("week")]
         public async Task<IActionResult> GetIncomingTodosForWeek()
         {
+            _logger.LogInformation("Fetching todos due this week.");
             var todos = await _service.GetIncomingTodosForWeek();
+
+            _logger.LogInformation("Found {Count} todos due this week.", todos.Count());
             return Ok(todos);
         }
 
@@ -78,12 +96,21 @@ namespace goonline.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> CreateTodo([FromBody] TodoRequestDTO todo)
         {
+            _logger.LogInformation("Creating a new todo: {Title}.", todo.title);
             if (!ModelState.IsValid)
             {
+                _logger.LogWarning("Model validation failed for the new todo.");
                 return BadRequest(ModelState);
             }
 
+            if (string.IsNullOrWhiteSpace(todo.title))
+            {
+                _logger.LogWarning("Title cannot be empty or whitespace.");
+                return BadRequest(new { error = "Title cannot be empty or whitespace." });
+            }
+
             await _service.AddTodo(todo);
+            _logger.LogInformation("Todo created successfully with title: {Title}.", todo.title);
             return StatusCode(201, todo);
         }
 
@@ -95,18 +122,28 @@ namespace goonline.Controllers
         [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateTodo(int id, [FromBody] TodoRequestDTO todo)
         {
+            _logger.LogInformation("Updating todo with ID {Id}.", id);
             if (!ModelState.IsValid)
             {
+                _logger.LogWarning("Model validation failed for updating todo with ID {Id}.", id);
                 return BadRequest(ModelState);
+            }
+
+            if (string.IsNullOrWhiteSpace(todo.title))
+            {
+                _logger.LogWarning("Title cannot be empty or whitespace for updating todo with ID {Id}.", id);
+                return BadRequest(new { error = "Title cannot be empty or whitespace." });
             }
 
             try
             {
                 await _service.UpdateTodo(id, todo);
+                _logger.LogInformation("Todo with ID {Id} updated successfully.", id);
                 return Ok($"Todo with ID {id} has been updated successfully.");
             }
             catch (EntityNotFoundException ex)
             {
+                _logger.LogWarning("Todo with ID {Id} not found. Exception: {Exception}", id, ex.Message);
                 return NotFound(new { error = ex.Message });
             }
         }
@@ -118,13 +155,16 @@ namespace goonline.Controllers
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteTodo(int id)
         {
+            _logger.LogInformation("Deleting todo with ID {Id}.", id);
             try
             {
                 await _service.DeleteTodo(id);
+                _logger.LogInformation("Todo with ID {Id} deleted successfully.", id);
                 return Ok($"Todo with ID {id} has been deleted successfully.");
             }
             catch (EntityNotFoundException ex)
             {
+                _logger.LogWarning("Todo with ID {Id} not found. Exception: {Exception}", id, ex.Message);
                 return NotFound(new { error = ex.Message });
             }
 
@@ -138,18 +178,22 @@ namespace goonline.Controllers
         [HttpPatch("{id}/percentComplete/{percentComplete}")]
         public async Task<IActionResult> SetPercentComplete(int id, int percentComplete)
         {
+            _logger.LogInformation("Updating percent complete for todo with ID {Id}.", id);
             try
             {
                 if (percentComplete > 100)
                 {
+                    _logger.LogWarning("Percent complete cannot exceed 100 for todo with ID {Id}.", id);
                     return BadRequest("Percent complete cannot exceed 100.");
                 }
                 await _service.SetPercentComplete(id, percentComplete);
 
+                _logger.LogInformation("Percent complete updated for todo with ID {Id}.", id);
                 return Ok("Percent complete has been updated.");
             }
             catch (EntityNotFoundException ex)
             {
+                _logger.LogWarning("Todo with ID {Id} not found. Exception: {Exception}", id, ex.Message);
                 return NotFound(new { error = ex.Message });
             }
         }
@@ -161,13 +205,17 @@ namespace goonline.Controllers
         [HttpPatch("{id}/markAsDone")]
         public async Task<IActionResult> MarkAsDone(int id)
         {
+            _logger.LogInformation("Marking todo with ID {Id} as done.", id);
             try
             {
                 await _service.MarkTodoAsDone(id);
+
+                _logger.LogInformation("Todo with ID {Id} marked as done.", id);
                 return Ok($"Todo with ID {id} has been marked as done.");
             }
             catch (EntityNotFoundException ex)
             {
+                _logger.LogWarning("Todo with ID {Id} not found. Exception: {Exception}", id, ex.Message);
                 return NotFound(new { error = ex.Message });
             }
         }

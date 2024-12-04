@@ -4,6 +4,7 @@ using FakeItEasy;
 using goonline.Models;
 using Microsoft.AspNetCore.Mvc;
 using goonline.DTO;
+using Microsoft.Extensions.Logging;
 
 namespace GoonlineTest
 {
@@ -11,11 +12,13 @@ namespace GoonlineTest
     {
         private readonly TodoController _todoController;
         private readonly ITodoService _todoService;
+        private readonly ILogger<TodoController> _logger;
 
         public TodoControllerTests()
         {
             _todoService = A.Fake<ITodoService>();
-            _todoController = new TodoController(_todoService);
+            _logger = A.Fake<ILogger<TodoController>>();
+            _todoController = new TodoController(_todoService, _logger);
         }
 
         //Test to ensure the controller's GetAllTodos method returns all todos successfully

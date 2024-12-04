@@ -340,3 +340,5 @@ C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\refint\goonl
 C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\goonline.pdb
 C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\goonline.genruntimeconfig.cache
 C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\ref\goonline.dll
+C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\goonline.sourcelink.json
+C:\Users\olejn\Desktop\goonline2\goonline\goonline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

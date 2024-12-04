@@ -166,3 +166,4 @@ C:\Users\olejn\Desktop\goonline2\goonline\GoonlineTest\obj\Debug\net8.0\refint\G
 C:\Users\olejn\Desktop\goonline2\goonline\GoonlineTest\obj\Debug\net8.0\GoonlineTest.pdb
 C:\Users\olejn\Desktop\goonline2\goonline\GoonlineTest\obj\Debug\net8.0\GoonlineTest.genruntimeconfig.cache
 C:\Users\olejn\Desktop\goonline2\goonline\GoonlineTest\obj\Debug\net8.0\ref\GoonlineTest.dll
+C:\Users\olejn\Desktop\goonline2\goonline\GoonlineTest\obj\Debug\net8.0\GoonlineTest.sourcelink.json
